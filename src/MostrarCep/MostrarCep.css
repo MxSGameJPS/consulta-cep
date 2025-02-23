@@ -1,0 +1,20 @@
+.mostrar-cep {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.mostrar-cep ul {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style-type: circle;
+    gap: 10px;    
+}
+
+.mostrar-cep li {
+    margin-bottom: 10px;
+    text-align: start;
+    padding: 10px;
+}
